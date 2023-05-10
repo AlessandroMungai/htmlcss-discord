@@ -43,6 +43,9 @@ ul, li{
     border-radius: 20px;
 }
 
+h2{
+    font-size: 2.5em;
+}
 
 /*-------
 
@@ -96,6 +99,29 @@ MAIN PRIMA SECTION
     text-align: center;
 }
 
+.my-row-head{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 20px;
+}
+
+.my-col-logohead{
+    width: 25%;
+    padding-top: 10px;
+    padding-left: 5px;
+}
+
+.my-col-linkhead{
+    width: 50%;
+}
+
+.my-col-login{
+    width: 25%;
+    text-align: right;
+    padding-top: 10px;
+    padding-left: 5px;
+}
+
 h1{
     font-size: 3em;
     margin-bottom: 20px;
@@ -123,53 +149,18 @@ h1{
 
 /*-------
 
-MAIN SECONDA SECTION
+MAIN SECOND
 
 --------*/
 
-h2{
-    margin-top: 26px;
-    font-size: 2.5em;
+.h2-second-section{
+margin-top: 26px;
 }
 
-.text-first-section{
+.text-second-section{
     margin-top: 30px;
     line-height: 1.8;
 }
-
-/*-------
-
-LAYOUT
-
---------*/
-
-.my-row-head{
-    display: flex;
-    flex-wrap: wrap;
-    padding-top: 20px;
-}
-
-.my-col-logohead{
-    width: 25%;
-    padding-top: 10px;
-    padding-left: 5px;
-}
-
-.my-col-linkhead{
-    width: 50%;
-}
-
-.my-col-login{
-    width: 25%;
-    text-align: right;
-    padding-top: 10px;
-    padding-left: 5px;
-}
-
-nav{
-    display: inline-block;
-}
-
 
 .my-row-first, .my-row-second {
     display: flex;
@@ -179,12 +170,6 @@ nav{
     height: 500px;
 }
 
-
-.my-col-first{
-    width: 75%;
-}
-
-
 .my-col-second-one{
     width: 60%;
 }
@@ -193,12 +178,49 @@ nav{
     width: 40%;
 }
 
+/*-------
+
+MAIN THIRD SECTION
+
+--------*/
+
+.h2-third-section{
+    margin-bottom: 30px;
+}
+
+.text-third-section{
+    margin-bottom: 120px;
+    line-height: 1.8;
+}
+
+/*-------
+
+MAIN FOURTH SECTION
+
+--------*/
+
+.h2-fourth-section{
+    margin-bottom: 30px;
+}
+
+.text-fourth-section{
+    margin-bottom: 120px;
+    line-height: 1.8;
+}
+
+/*-------
+
+MAIN FIFTH SECTION
+
+--------*/
+
 .my-row-fifth {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     height: 800px;
+    text-align: center;
 }
 
 .my-row-sixth {
@@ -300,6 +322,7 @@ DEBUG
     border: dashed black;
 }
 */
+
 .debug .third-section{
     height: 500px;
     background-color: #D3D3D3; 
