@@ -25,10 +25,6 @@ body{
     margin: 0 auto;
 }
 
-ul, li{
-    display: inline-block;
-}
-
 .text-white{
     color: white;
 }
@@ -37,7 +33,7 @@ ul, li{
     color: black;
 }
 
-.bottom{
+.button{
     display: inline-block;
     padding: 10px 15px;
     border-radius: 20px;
@@ -60,10 +56,13 @@ header {
 }
 
 .nav-head{
+    list-style-type: none;
     font-size: 0.9em;
+    display: flex;
+    justify-content: space-around;
 }
 
-.bottom-accedi{
+.button-accedi{
     background-color: white;
     font-size: 0.9em;
 }
@@ -90,7 +89,7 @@ MAIN
 
 /*-------
 
-MAIN PRIMA SECTION
+MAIN FIRST SECTION
 
 --------*/
 
@@ -135,13 +134,19 @@ h1{
     line-height: 1.8;
 }
 
-.bottom-download{
+.button-first-section{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.button-download{
     background-color: white;
     color: black;
     font-size: 1.2em;
 }
 
-.bottom-black{
+.button-black{
     background-color: black;
     color: white;
     font-size: 1.2em;
@@ -184,6 +189,11 @@ MAIN THIRD SECTION
 
 --------*/
 
+.third-section{
+    height: 500px;
+    background-color: #F6F6F6; 
+}
+
 .h2-third-section{
     margin-bottom: 30px;
 }
@@ -214,6 +224,26 @@ MAIN FIFTH SECTION
 
 --------*/
 
+.h2-fifth-section{
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.h3-fifth-section{
+    font-size: 1.5em;
+    padding-top: 30px;
+}
+
+.text-fifth-section{
+    margin-bottom: 10px;
+    line-height: 1.8;
+}
+
+.fifth-section{
+    height: 1000px;
+    background-color: #F6F6F6;
+}
+
 .my-row-fifth {
     display: flex;
     justify-content: center;
@@ -223,6 +253,24 @@ MAIN FIFTH SECTION
     text-align: center;
 }
 
+.img-fifth-section{
+    width: 1000px;
+}
+
+.my-row-img{
+    display: flex;
+    justify-content: center;
+}
+
+.my-col-fifth{
+    width: 80%;
+}
+
+.col-star-img{
+    width: 530px;
+    height: 49px;
+    background-image: url(../img/stars.svg);
+}
 .my-row-sixth {
     display: flex;
     justify-content: center;
@@ -231,9 +279,11 @@ MAIN FIFTH SECTION
     padding-top: 10px;
 }
 
-.my-col-fifth{
-    width: 80%;
-}
+/*-------
+
+MAIN SIXTH SECTION
+
+--------*/
 
 .my-col-sixth-one{
     width: 40%;
@@ -322,12 +372,13 @@ DEBUG
     border: dashed black;
 }
 */
-
+/*
 .debug .third-section{
     height: 500px;
     background-color: #D3D3D3; 
 }
-
+*/
+/*
 .debug .fifth-section{
     height: 800px;
     background-color: #D3D3D3;
@@ -338,7 +389,7 @@ DEBUG
     height: 750px;
     border: dashed black;
 }
-
+*/
 .debug .sixth-section{
     height: 800px;
     background-color: #23272A;  
