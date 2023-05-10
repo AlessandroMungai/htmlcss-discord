@@ -1,0 +1,246 @@
+/*-------
+
+RESET
+
+--------*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*-------
+
+GENERAL
+
+--------*/
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+/*-------
+
+LAYOUT
+
+--------*/
+
+.my-row-head{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 20px;
+}
+
+.my-col-logohead{
+    width: 25%;
+}
+
+.my-col-linkhead{
+    width: 50%;
+}
+
+.my-col-login{
+    width: 25%;
+}
+
+nav{
+    display: inline-block;
+}
+
+
+.my-row-first, .my-row-second {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 500px;
+}
+
+
+.my-col-first{
+    width: 75%;
+}
+
+
+.my-col-second-one{
+    width: 60%;
+}
+
+.my-col-second-two{
+    width: 40%;
+}
+
+.my-row-fifth {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 800px;
+}
+
+.my-row-sixth {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 800px;
+    padding-top: 10px;
+}
+
+.my-col-fifth{
+    width: 80%;
+}
+
+.my-col-sixth-one{
+    width: 40%;
+}
+
+.my-col-sixth-two, .my-col-sixth-three,
+.my-col-sixth-four,.my-col-sixth-five{
+    width: 15%;
+}
+
+.my-row-seventh{
+    display: flex;
+    align-items: center;
+    height: 100px;
+    justify-content: space-between;
+}
+
+/*-------
+
+DEBUG
+
+--------*/
+
+.debug header {
+    background-color: #ADD8E6;
+    height: 100px;
+}
+
+.debug .my-col-logohead{
+    background-color: #DAA520;
+    height: 50px;
+    border: dashed black;
+    text-align: left;
+    font-size: 1.2em;
+    padding-top: 10px;
+    padding-left: 5px;
+    
+}
+
+.debug .my-col-linkhead{
+    background-color: #DAA520;
+    height: 50px;
+    border: dashed black;
+    text-align: center;
+    font-size: 1.2em;
+    padding-top: 10px;
+}
+
+.debug .my-col-login{
+    background-color: #DAA520;
+    height: 50px;
+    border: dashed black;
+    text-align: right;
+    font-size: 1.2em;
+    padding-top: 10px;
+    padding-right: 5px;
+}
+
+.debug .first-section{
+    background-color: #00008B;
+    height: 500px;
+}
+
+.debug .my-col-first{
+    background-color: #EE82EE;
+    height: 400px;
+    border: dashed black;
+}
+
+.debug .second-section, .fourth-section{
+    height: 500px;
+}
+
+.debug .my-col-second-one{
+    background-color: #1E90FF;
+    height: 400px;
+    border: dashed black;
+}
+
+.debug .my-col-second-two{
+    background-color: #FFC0CB;
+    height: 400px;
+    border: dashed black;
+}
+
+.debug .third-section{
+    height: 500px;
+    background-color: #D3D3D3; 
+}
+
+.debug .fifth-section{
+    height: 800px;
+    background-color: #D3D3D3;
+}
+
+.debug .my-col-fifth{
+    background-color: #228B22;
+    height: 750px;
+    border: dashed black;
+}
+
+.debug .sixth-section{
+    height: 800px;
+    background-color: #23272A;  
+}
+
+.debug .my-col-sixth-one{
+    background-color: #F08080;
+    height: 600px;
+    border: dashed black;
+}
+
+.debug .my-col-sixth-two, .my-col-sixth-three,
+.my-col-sixth-four,.my-col-sixth-five{
+    background-color: #20B2AA;
+    height: 600px;
+    border: dashed black;
+}
+
+.debug .seventh-section{
+    margin-top: 2px;
+    height: 150px;
+    background-color: #23272A;  
+}
+
+.debug .my-row-seventh{
+    background-color: #7FFFD4;
+    
+    
+}
+
+.debug .my-col-logo-foot{
+    width: 80px;
+    height: 30px;
+    background-color: #B1828A;
+    border: dashed black;
+    padding-left: 10px;
+    padding-top: 4px;
+}
+
+.debug .my-col-bottone-foot{
+    width: 80px;
+    height: 30px;
+    background-color: #B1828A;
+    border: dashed black;
+    padding-left: 10px;
+    padding-top: 4px;
+}
