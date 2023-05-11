@@ -234,7 +234,7 @@ MAIN FIFTH SECTION
 
 .h3-fifth-section{
     font-size: 1.5em;
-    padding-top: 30px;
+    
 }
 
 .text-fifth-section{
@@ -269,10 +269,12 @@ MAIN FIFTH SECTION
     width: 80%;
 }
 
-.col-star-img{
-    width: 530px;
-    height: 49px;
-    background-image: url(../img/stars.svg);
+.button-download-blue{
+    background-color: #7289DA;
+    color: white;
+    margin-top: 25px;
+    font-size: 1.2em;
+    border: none
 }
 
 /*-------
@@ -473,14 +475,12 @@ DEBUG
     border: dashed black;
 }
 
-.debug .my-col-sixth-two, .my-col-sixth-three,
-.my-col-sixth-four,.my-col-sixth-five{
+.debug .my-col-sixth-two, .debug .my-col-sixth-three,
+.debug .my-col-sixth-four, .debug .my-col-sixth-five{
     background-color: #20B2AA;
     height: 600px;
     border: dashed black;
 }
-*/
-
 
 .debug .seventh-section{
     height: 150px;
